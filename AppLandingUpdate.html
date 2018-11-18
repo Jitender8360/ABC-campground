@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App Lding Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src=" https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	
+	 
+	 <style>
+	 
+		body {
+			  position: relative; 
+		  }
+		.jumbotron{
+			background-color: transparent;
+ 
+		}
+		
+	 
+		#mainbody{
+			background-image: url("bg.jpg");
+ 
+		}
+		
+		#footer{
+			background-color: aqua;
+ 
+		}
+		
+		
+		i{
+		margin-right: 5px;
+		}
+		
+		nav-link :active{
+		background-color: green;
+		}
+		
+	  </style>
+ </head>
+	<body data-spy="scroll" data-target="#myscrollbar" data-offset="150">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="myscrollbar">
+		  <a class="navbar-brand" href="#MyApp">MyApp</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link " href="#mainbody">Home <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#idAbout">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#footer">Download The App</a>
+			  </li>
+			</ul>
+			<form class="form-inline">
+			  <input class="form-control mr-sm-2" type="Email" placeholder="Email" aria-label="Search">
+			  <input class="form-control mr-sm-2" type="Password" placeholder="Password" aria-label="Search">
+			  <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+			</form>
+		  </div>
+		</nav>
+
+		
+		<div class="jumbotron" id="mainbody">
+		
+
+		  <h1 class="display-3 text-center ">My Awesome App!</h1>
+		  <p class="lead text-center font-weight-bold">This is why YOU should download this fantastic app!</p>
+		  <hr class="my-4">
+		   <p class="text-center">Want to know more? Join our mailing list!</p>
+				<div class= "mx-auto">
+				<form class="form-inline my-2 my-lg-0">
+				<div class= "mx-auto">
+				 <span class="btn btn-light m-0">@</span>				
+				  <input class="form-control ml-0 mr-sm-2" type="Email" placeholder="Your email" aria-label="Search">
+				  <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
+				 </div>
+				 </form>
+				</div>
+		
+		</div>
+		
+		<div class="jumbotron p-0">
+		  <h3 class="display-6 text-center ">Why This App Is Awesome</h3>
+		  <p class="display-8 text-center">Summary, once again, of your app's awesomeness</p>
+		 </div>
+		
+		
+		
+		<div class="container" id="idAbout">
+			<div class="row">
+					
+					<div class="col-sm-4 p-1">
+						<div class="card" style="height: 100%">
+						  <img class="card-img-top img-fluid" src="fatherandson.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<h5 class="card-title"><i class="fas fa-anchor"></i>Card title</h5>
+							<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer..</p>
+						 </div>	
+					  </div>
+					</div> 
+				
+					<div class="col-sm-4 p-1" >
+						<div class="card"style="height: 100%">
+						  <img class="card-img-top img-fluid" src="fatherandson.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<h5 class="card-title"><i class="fas fa-bicycle"></i>Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						  </div>	
+						 </div>
+					</div>
+					
+					<div class="col-sm-4 p-1" >
+						<div class="card" style="height: 100%">
+						  <img class="card-img-top img-fluid" src="fatherandson.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<h5 class="card-title"><i class="fas fa-menorah"></i>Card title</h5>
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action..</p>
+							</div>	
+						 </div>
+					</div>
+			</div>
+		</div>
+
+		<div class="jumbotron p-0" id="footer" ">
+		
+		<div style="padding: 130px 0;">
+		  <h3 class="display-6 text-center ">Download the app!</h3>
+		  <p class="display-8 text-center">Really, why should I download this app??</p>
+		  <div class="text-center" >
+			<a href="#mainbody"><img class="" src="App-Store-Icon.png" style="width: 200px; height: auto;"></a>
+			</div>
+			</div>
+		</div>
+
+</body>
+</html>
